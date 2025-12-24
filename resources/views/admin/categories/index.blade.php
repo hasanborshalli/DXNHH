@@ -16,6 +16,7 @@
                 <tr>
                     <th>ID</th>
                     <th>Name (EN)</th>
+                    <th>Slug</th>
                     <th>Active</th>
                     <th class="w-actions">Actions</th>
                 </tr>
