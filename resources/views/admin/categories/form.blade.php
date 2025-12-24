@@ -18,7 +18,11 @@
         </div>
 
         <div class="grid-2">
-
+            <div class="field">
+                <label>Slug (optional)</label>
+                <input type="text" name="slug" value="{{ old('slug', $category->slug ?? '') }}">
+                <small class="muted">If empty, it will be generated from Name (EN).</small>
+            </div>
             <div class="field">
                 <label>Image (optional)</label>
                 <input type="file" name="image" accept="image/*">

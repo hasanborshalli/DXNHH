@@ -25,6 +25,7 @@
                 <tr>
                     <td>{{ $c->id }}</td>
                     <td>{{ $c->name_en }}</td>
+                    <td>{{ $c->slug }}</td>
                     <td>{{ $c->is_active ? 'Yes' : 'No' }}</td>
                     <td class="actions">
                         <a class="btn btn-ghost" href="{{ route('admin.categories.edit', $c) }}">Edit</a>
